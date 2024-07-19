@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import Cards from './Cards/Cards'
+// import Cards from './Cards/Cards'
 import './Body.css'
-import Searchfilter from './SearchFilter/Searchfilter';
+import Searchfilter from "./../SearchFilter/Searchfilter";
 function Body({Alldata}) {
 
     const[data,setData]=useState(Alldata);
